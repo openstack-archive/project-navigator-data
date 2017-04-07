@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "id": "v3.7",
+      "status": "CURRENT"
+    },
+    {
+      "id": "v2.0",
+      "status": "DEPRECATED"
+    }
+  ]
+}

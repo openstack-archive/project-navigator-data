@@ -1,0 +1,18 @@
+{
+  "versions": [
+    {
+      "id": "v1.0",
+      "status": "DEPRECATED"
+    },
+    {
+      "id": "v2.0",
+      "status": "SUPPORTED"
+    },
+    {
+      "id": "v3.0",
+      "max_version": "3.15",
+      "min_version": "3.0",
+      "status": "CURRENT"
+    }
+  ]
+}
