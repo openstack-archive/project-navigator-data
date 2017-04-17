@@ -24,6 +24,9 @@ Each service dictionary should contain a top level dictionary with a key
 If either min_version or max_version are given, they both must be given. If
 the service does not have microversions, they should be omitted.
 
+This is also expressed in jsonschema form in the file `schema.json` in this
+repository.
+
 .. _API WG document: https://specs.openstack.org/openstack/api-wg/guidelines/microversion_specification.html#version-discovery
 
 Process Description
