@@ -1,0 +1,16 @@
+{
+  "versions": [
+    {
+      "id": "v2.0",
+      "status": "CURRENT"
+    },
+    {
+      "id": "v1.1",
+      "status": "CURRENT"
+    },
+    {
+      "id": "v1.0",
+      "status": "SUPPORTED"
+    }
+  ]
+}
