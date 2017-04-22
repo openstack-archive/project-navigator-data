@@ -2,7 +2,7 @@
   "versions": [
     {
       "id": "v3.0",
-      "max_version": "3.15",
+      "max_version": "3.27",
       "min_version": "3.0",
       "status": "CURRENT"
     },
