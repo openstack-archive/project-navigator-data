@@ -12,28 +12,40 @@
       }
     }
   },
-  "definitions": {
-    "version": {
-      "properties": {
-        "status": {
-          "type": "string",
-	  "enum": ["CURRENT", "SUPPORTED", "DEPRECATED"]
-	},
-	"id": {
-	  "type": "string",
-	  "pattern": "^v[0-9]{1,2}.?[0-9]{0,2}$"
-	},
-	"max_version": {
-	  "type": "string",
-	  "pattern": "^[0-9]{1,2}.[0-9]{1,2}$"
-	},
-	"min_version": {
-	  "type": "string",
-	  "pattern": "^[0-9]{1,2}.[0-9]{1,2}$"
-	}
-      },
-      "additionalProperties": false,
-      "reqiured": ["status", "id"]
-    }
-  }
+   "definitions":{
+      "version":{
+         "properties":{
+            "status":{
+               "type":"string",
+               "enum":[
+                  "CURRENT",
+                  "SUPPORTED",
+                  "EXPERIMENTAL",
+                  "DEPRECATED"
+               ]
+            },
+            "id":{
+               "type":"string",
+               "pattern":"^v[0-9]{1,2}.?[0-9]{0,2}$"
+            },
+            "max_version":{
+               "type":"string",
+               "pattern":"^[0-9]{1,2}.[0-9]{1,2}$"
+            },
+            "version":{
+               "type":"string",
+               "pattern":"^[0-9]{1,2}.[0-9]{1,2}$"
+            },
+            "min_version":{
+               "type":"string",
+               "pattern":"^[0-9]{1,2}.[0-9]{1,2}$"
+            }
+         },
+         "additionalProperties":false,
+         "required":[
+            "status",
+            "id"
+         ]
+      }
+   }
 }

@@ -19,6 +19,7 @@ Each service dictionary should contain a top level dictionary with a key
  * status, required: can be one of CURRENT, SUPPORTED, DEPRECATED, EXPERIMENTAL
  * id, required: the major api version, in the form vX.X
  * max_version, optional: the maximum microversion supported, in the form X.XX
+ * version, optional: same as max_version
  * min_version, optional: the minimum microversion supported, in the form X.XX
 
 If either min_version or max_version are given, they both must be given. If
